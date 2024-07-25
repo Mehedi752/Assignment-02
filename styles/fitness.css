@@ -51,7 +51,7 @@ header {
 .navbar {
     align-items: center;
     justify-content: space-between;
-    padding: 3rem 5rem;
+    padding: 3rem 0rem;
 }
 
 .brand {
@@ -145,7 +145,7 @@ header {
 /* Banner Related Styles. */
 .banner-details {
     color: white;
-    padding: 4rem 5rem;
+    padding: 4rem 0rem;
     gap: 10rem;
 }
 
@@ -279,7 +279,7 @@ header {
 }
 
 .habit-details {
-    padding: 1rem 5rem;
+    padding: 1rem 0rem;
 }
 
 .habit-heading {
@@ -469,7 +469,8 @@ td {
 .bmi-calculator {
     flex-direction: column;
     gap: 20px;
-    padding: 0rem 6rem;
+    padding: 0;
+    width: 55%;
 }
 
 .calculator-form {
@@ -485,6 +486,7 @@ td {
     font-size: 28px;
     font-weight: 900;
     margin: 0px;
+    padding-bottom: 10px;
 }
 
 
@@ -494,15 +496,17 @@ td {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.3px;
+    padding-right: 12rem;
+    padding-bottom: 10px;
 }
 
 .calculator-form {
     gap: 20px;
 }
 
-input,
-select {
-    width: 45%;
+.calculator-form input,
+.calculator-form select {
+    width: 50%;
     height: 60px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
@@ -511,10 +515,24 @@ select {
     font-size: 1rem;
     cursor: pointer;
     margin-right: 20px;
+    padding-left: 20px;
+}
+
+#sex-select {
+    width: 52%;
+    height: 60px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 20px;
+    padding-left: 20px;
 }
 
 #activity-select {
-    width: 100%;
+    width: 98%;
     height: 60px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
@@ -523,6 +541,7 @@ select {
     font-size: 1rem;
     cursor: pointer;
     margin-right: 20px;
+    padding-left: 20px;
 }
 
 
@@ -562,20 +581,20 @@ select {
 
 .team-peoples {
     background-color: rgb(34, 34, 34);
-    padding: 2rem;
+    padding: 4rem;
     border-radius: 10px;
 }
 
 .team-peoples {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 4rem;
 }
 
 .team-peoples img {
     width: 100%;
-    height: 250px;
-    border-radius: 10px;
+    height: 275px;
+    border-radius: 18px;
 }
 
 .people-profile {
@@ -640,6 +659,7 @@ p {
     background: none;
     border-bottom: 1px solid;
     border-radius: 0%;
+    color: white;
 }
 
 
@@ -652,17 +672,19 @@ p {
     background: none;
     border-bottom: 1px solid white;
     border-radius: 0%;
+    color: white;
 }
 
 .extra-section input[type=message] {
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     margin: 10px 0;
     box-sizing: border-box;
     border: none;
     background: none;
     border-bottom: 1px solid white;
     border-radius: 0%;
+    color: white;
 }
 
 .form-top {
@@ -756,4 +778,5 @@ footer {
     padding-bottom: 2rem;
     text-align: center;
 }
+
 /* End of Footer Related Styles. */

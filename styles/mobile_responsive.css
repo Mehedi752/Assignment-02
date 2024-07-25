@@ -64,7 +64,7 @@
     .workout h3 {
         font-size: 2.2rem;
     }
-    
+
     .workout p {
         font-size: 0.6rem;
     }
@@ -75,10 +75,12 @@
         width: auto;
     }
 
+    /* End of Navbar and Banner Related Responsive Styles. */
+
 
     /* Habit Section Related Responsive Styles. */
     .habit-details {
-        padding: 10px 30px;
+        padding: 20px 30px;
     }
 
     .habit-heading {
@@ -102,6 +104,9 @@
     .image-description {
         margin-top: 5px;
     }
+
+    /* End of Habit Section Related Responsive Styles. */
+
 
 
     /* Run Section Related Responsive Styles. */
@@ -144,12 +149,19 @@
         border: 2px solid rgb(255, 144, 14);
     }
 
+    /* End of Run Section Related Responsive Styles. */
+
 
 
     /* BMI Calculator Related Responsive Styles. */
     table {
         width: 300px;
         height: 220px;
+    }
+
+    .bmi-calculator {
+        width: 100%;
+        padding: 1rem 0rem;
     }
 
     .bmi-calculator-heading {
@@ -168,24 +180,20 @@
     }
 
     .bmi-calculator-chart h1 {
-        padding-bottom: 2rem;
+        padding-bottom: 1.25rem;
         font-size: 24px;
     }
 
     .calculator-title {
-        font-size: 24px;
+        font-size: 1.25rem;
     }
 
 
-    .bmi-calculator-description {
+    .calculator-description {
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.3px;
         padding-right: 5rem;
-    }
-
-    .bmi-calculator {
-        padding: 0rem 0rem;
     }
 
     .calculator-heading {
@@ -196,6 +204,11 @@
         padding: 0px;
     }
 
+    #activity-select {
+        width: 96%;
+    }
+
+    /* End of BMI Calculator Related Responsive Styles. */
 
 
 
@@ -209,15 +222,22 @@
         padding-bottom: 0px;
     }
 
+    .team-title{
+        font-size: 2rem;
+    }
+
     .team-peoples {
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 30px;
         margin: 30px;
+        padding: 30px;
     }
 
     .team-peoples img {
         border: 2px solid rgb(255, 144, 14);
     }
+
+    /* End of Team Section Related Responsive Styles. */
 
 
     /* Extra Section Related Responsive Styles. */
@@ -263,6 +283,10 @@
         align-items: center;
     }
 
+    /* End of Extra Section Related Responsive Styles. */
+
+
+
     /* Footer Related Responsive Styles. */
     .footer-container {
         padding: 2rem;
@@ -283,4 +307,6 @@
         text-align: left;
         font-size: 1.25rem;
     }
+
+    /* End of Footer Related Responsive Styles. */
 }
