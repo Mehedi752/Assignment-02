@@ -1,0 +1,286 @@
+@media only screen and (max-width: 576px) {
+
+    /* Navbar and Banner Related Responsive Styles. */
+    .navbar {
+        padding: 30px 20px;
+    }
+
+    .menu-button-container {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .banner-details {
+        flex-direction: column;
+        padding: 0px 45px;
+        gap: 30px;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+
+    .banner-description {
+        padding-right: 0px;
+    }
+
+    .club-span {
+        display: none;
+    }
+
+    .club-button {
+        width: 225px;
+        height: 55px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        padding: 0.5rem 1rem;
+        border: none;
+    }
+
+    .download-button {
+        width: 225px;
+        height: 55px;
+        background-color: transparent;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 42px;
+        color: white;
+        padding: .5rem 1rem;
+        border: 1px solid white;
+    }
+
+    .workout {
+        bottom: 72%;
+        left: 64%;
+        width: auto;
+    }
+
+    .workout h3 {
+        font-size: 2.2rem;
+    }
+    
+    .workout p {
+        font-size: 0.6rem;
+    }
+
+    .tutorial {
+        bottom: 40%;
+        left: -10%;
+        width: auto;
+    }
+
+
+    /* Habit Section Related Responsive Styles. */
+    .habit-details {
+        padding: 10px 30px;
+    }
+
+    .habit-heading {
+        text-align: center;
+    }
+
+    .habit-images {
+        margin-top: 3rem;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .habit-images img {
+        border: 5px solid rgb(34, 34, 34);
+    }
+
+    .habit-title {
+        font-size: 2rem;
+    }
+
+    .image-description {
+        margin-top: 5px;
+    }
+
+
+    /* Run Section Related Responsive Styles. */
+    .run-details {
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: 20px;
+        margin-bottom: 0px;
+        padding: 2rem 2rem;
+    }
+
+    .run-heading {
+        gap: 20px;
+    }
+
+    .run-title {
+        font-size: 2rem;
+    }
+
+    .run-description {
+        padding-right: 0rem;
+        line-height: 170%;
+        margin: 0px;
+    }
+
+    .join-button {
+        width: 100%;
+    }
+
+    .run-crop-image {
+        display: none;
+    }
+
+    .run-full-image {
+        display: block;
+        width: 100%;
+    }
+
+    .run-full-image img {
+        border: 2px solid rgb(255, 144, 14);
+    }
+
+
+
+    /* BMI Calculator Related Responsive Styles. */
+    table {
+        width: 300px;
+        height: 220px;
+    }
+
+    .bmi-calculator-heading {
+        padding: 50px 30px;
+    }
+
+    .bmi-calculator-title {
+        font-size: 2rem;
+    }
+
+    .bmi-calculator-container {
+        flex-direction: column;
+        gap: 20px;
+        margin: 0px 30px;
+
+    }
+
+    .bmi-calculator-chart h1 {
+        padding-bottom: 2rem;
+        font-size: 24px;
+    }
+
+    .calculator-title {
+        font-size: 24px;
+    }
+
+
+    .bmi-calculator-description {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        padding-right: 5rem;
+    }
+
+    .bmi-calculator {
+        padding: 0rem 0rem;
+    }
+
+    .calculator-heading {
+        padding: 0px;
+    }
+
+    .calculator-form {
+        padding: 0px;
+    }
+
+
+
+
+    /* Team Section Related Responsive Styles. */
+    .trainer-1,
+    .trainer-4 {
+        display: none;
+    }
+
+    .team-heading {
+        padding-bottom: 0px;
+    }
+
+    .team-peoples {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin: 30px;
+    }
+
+    .team-peoples img {
+        border: 2px solid rgb(255, 144, 14);
+    }
+
+
+    /* Extra Section Related Responsive Styles. */
+    .extra-container {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .span-extra {
+        display: none;
+    }
+
+    .enroll-details {
+        flex-direction: column;
+    }
+
+    .enroll-title {
+        font-size: 1rem;
+        padding-top: 1rem;
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    .form-top {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .extra-section input[type=text] {
+        width: 50%;
+    }
+
+    .extra-section input[type=email] {
+        width: 50%;
+    }
+
+    .extra-section input[type=message] {
+        padding: 8px 0px;
+        width: 90%;
+    }
+
+    .submit-button {
+        align-items: center;
+    }
+
+    /* Footer Related Responsive Styles. */
+    .footer-container {
+        padding: 2rem;
+    }
+
+    .footer-container-top {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-middle,
+    .footer-right {
+        gap: 15px;
+    }
+
+    .last-line {
+        text-align: left;
+        font-size: 1.25rem;
+    }
+}
