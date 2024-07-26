@@ -578,17 +578,13 @@ td {
     letter-spacing: 0.3px;
 }
 
-
-.team-peoples {
-    background-color: rgb(34, 34, 34);
-    padding: 4rem;
-    border-radius: 10px;
-}
-
 .team-peoples {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 4rem;
+    background-color: rgb(34, 34, 34);
+    padding: 4rem;
+    border-radius: 10px;
 }
 
 .team-peoples img {
