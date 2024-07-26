@@ -751,6 +751,7 @@ footer {
 .footer-right {
     flex-direction: column;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .footer-container-top h3 {

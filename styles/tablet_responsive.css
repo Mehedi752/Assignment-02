@@ -35,6 +35,9 @@
         bottom: 25%;
     }
 
+    /* End of Navbar and Banner Related Styles. */
+
+
 
     /* Habit Related Responsive Styles. */
     .habit-details {
@@ -59,6 +62,8 @@
     .habit-images img {
         border: 2px solid rgb(255, 144, 14);
     }
+
+    /* End of Habit Related Responsive Styles. */
 
 
 
@@ -89,6 +94,8 @@
         width: 100%;
         height: 150%;
     }
+
+    /* End of Run Section Related Responsive Styles. */
 
 
 
@@ -129,6 +136,10 @@
         padding: 0px;
     }
 
+    /* End of BMI Calculator Related Responsive Styles. */
+
+
+
 
     /* Team Section Related Responsive Styles. */
     .team-heading {
@@ -146,15 +157,22 @@
         height: 250px;
     }
 
+    /* End of Team Section Related Responsive Styles. */
+
+
 
     /* Extra Section Related Responsive Styles. */
     .enroll-title {
         font-size: 1rem;
         padding-bottom: 20px;
     }
+
     .form-top {
         gap: 5rem;
     }
+
+    /* End of Extra Section Related Responsive Styles. */
+
 
 
     /* Footer Related Responsive Styles. */
@@ -176,4 +194,6 @@
     .footer-middle {
         gap: 2rem;
     }
+
+    /* End of Footer Related Responsive Styles. */
 }
